@@ -5,4 +5,33 @@
   background-image: url("../img/best-seo-services-slide-1.png");
   background-repeat: no-repeat;
   background-position: 90% 90%;
+}
+.head_top > * {
+  border: 1px solid white;
+  width: 100%;
+}
+.head_top > header {
+  height: 15%;
+}
+.head_top > header > * {
+  border: 1px solid red;
+  height: 100%;
+  padding: 0 24px;
+}
+.head_top > header > figure,
+.head_top > header > div {
+  width: 25%;
+}
+.head_top > header > nav {
+  width: 50%;
+}
+.head_top > header > figure {
+  align-items: center;
+  justify-content: start;
+}
+.head_top > header > figure > img {
+  height: 55%;
+}
+.head_top > div {
+  height: 85%;
 }/*# sourceMappingURL=master.css.map */
