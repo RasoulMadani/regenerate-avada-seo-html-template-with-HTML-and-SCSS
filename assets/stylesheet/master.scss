@@ -35,10 +35,21 @@
                     >a{
                         // background-color:yellow;
                         font-size: 18px;
+                        
                         text-transform: uppercase;
                         color: white;
                         &:hover{
                             color: orange;
+                        }
+                        >strong{
+                           border: 1px solid orange; 
+                           border-radius: 5px;
+                           font-size: 10px;
+                           font-weight: normal;
+                           padding: 4px;
+                           color: orange;
+                           margin-left: 5px;
+                           
                         }
                     }
                 }

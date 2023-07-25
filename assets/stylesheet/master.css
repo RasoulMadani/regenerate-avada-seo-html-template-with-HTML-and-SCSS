@@ -42,6 +42,15 @@
 .head_top > header > nav > ul > li > a:hover {
   color: orange;
 }
+.head_top > header > nav > ul > li > a > strong {
+  border: 1px solid orange;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: normal;
+  padding: 4px;
+  color: orange;
+  margin-left: 5px;
+}
 .head_top > header > figure {
   align-items: center;
   justify-content: start;
