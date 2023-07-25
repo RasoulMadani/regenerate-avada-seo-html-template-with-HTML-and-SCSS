@@ -36,6 +36,7 @@
 }
 .head_top > header > nav > ul > li > a {
   font-size: 18px;
+  display: flex;
   text-transform: uppercase;
   color: white;
 }
@@ -50,6 +51,7 @@
   padding: 4px;
   color: orange;
   margin-left: 5px;
+  transform: translateY(-3px);
 }
 .head_top > header > figure {
   align-items: center;
