@@ -1,10 +1,17 @@
-.head_top {
+main > div {
   width: 100%;
-  height: 120vh;
   background-color: rgb(3, 70, 213);
-  background-image: url("../img/best-seo-services-slide-1.png");
+  background-image: url("../img/download.png");
   background-repeat: no-repeat;
-  background-position: 90% 90%;
+  background-size: 400px;
+  background-position: 90% 80%;
+  height: 120vh;
+}
+
+.head_top {
+  width: 80%;
+  height: 120vh;
+  margin: auto;
 }
 .head_top > * {
   width: 100%;
@@ -13,7 +20,6 @@
   height: 15%;
 }
 .head_top > header > * {
-  border: 1px solid red;
   height: 100%;
   padding: 0 24px;
 }
@@ -37,7 +43,7 @@
 .head_top > header > nav > ul > li > a {
   font-size: 18px;
   display: flex;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: white;
 }
 .head_top > header > nav > ul > li > a:hover {
@@ -51,7 +57,7 @@
   padding: 4px 6px;
   color: orange;
   margin-left: 5px;
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 }
 .head_top > header > figure {
   align-items: center;
@@ -77,4 +83,47 @@
 }
 .head_top > div {
   height: 85%;
+  justify-content: start;
+  align-items: center;
+}
+.head_top > div > article {
+  padding-left: 24px;
+  max-width: 40vw;
+  min-height: 50px;
+}
+.head_top > div > article > * {
+  color: white;
+  width: 100%;
+}
+.head_top > div > article > h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.head_top > div > article > p {
+  margin: 15px 0;
+  font-size: 19px;
+  line-height: 30px;
+}
+.head_top > div > article > div {
+  padding: 30px 0;
+}
+.head_top > div > article > div > * {
+  text-transform: uppercase;
+}
+.head_top > div > article > div > a:first-of-type {
+  padding: 15px 60px;
+  background: #ffa737;
+  border-radius: 40px;
+}
+.head_top > div > article > div > a:first-of-type:hover {
+  background-color: rgb(255, 178, 81);
+}
+.head_top > div > article > div > a:last-of-type {
+  margin-left: 15px;
+  padding: 15px 40px;
+  background: #556eed;
+  border-radius: 40px;
+}
+.head_top > div > article > div > a:last-of-type:hover {
+  background-color: rgb(96, 122, 254);
 }/*# sourceMappingURL=master.css.map */
