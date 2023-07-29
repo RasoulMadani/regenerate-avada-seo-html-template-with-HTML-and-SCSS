@@ -126,4 +126,25 @@ main > div {
 }
 .head_top > div > article > div > a:last-of-type:hover {
   background-color: rgb(96, 122, 254);
+}
+
+.agency {
+  width: 100%;
+  justify-content: center;
+  margin: 100px 0;
+}
+.agency > article {
+  width: 50%;
+}
+.agency > article > * {
+  text-align: center;
+  margin: 25px 0;
+}
+.agency > article > p {
+  color: black;
+  font-size: 18px;
+}
+.agency > article > h2 {
+  font-size: 30px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=master.css.map */
