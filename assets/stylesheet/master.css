@@ -212,4 +212,10 @@ main > div {
 }
 .items > .row article > div > div > i:nth-of-type(2) {
   left: 0px;
+}
+.items > .row > figure {
+  width: 100%;
+}
+.items > .row > figure > img {
+  width: 100%;
 }/*# sourceMappingURL=master.css.map */
