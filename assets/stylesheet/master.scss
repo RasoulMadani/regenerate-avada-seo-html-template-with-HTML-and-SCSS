@@ -155,14 +155,15 @@ main > div {
     }
   }
 }
-.items {
+.items,.services {
     background-color: rgb(183, 183, 183);
   > .row {
     width: 100%;
     justify-content: space-evenly;
     article {
+      padding: 20px;
       width: 350px;
-      height: 350px;
+    //   height: 350px;
       background-color: white;
       display: flex;
       flex-wrap: wrap;
@@ -177,7 +178,10 @@ main > div {
         font-size: 30px;
       } 
       >p{
-        text-align: center;font-size: 18px;color: rgba(65,65,65);
+        line-height: 30px;
+        text-align: justify;
+        font-size: 18px;color: rgba(65,65,65);
+        text-align-last: center;
       }
       >div{
         display: flex;
@@ -225,4 +229,17 @@ main > div {
         }
       }
   }
+}
+.services{
+    background-color: rgb(1, 1, 100); 
+    article{
+        width: 250px !important;
+        // height: 400px !important;
+        a{
+            color: orangered;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    }
 }
