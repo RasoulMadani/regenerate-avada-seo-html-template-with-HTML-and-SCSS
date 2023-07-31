@@ -146,7 +146,8 @@ main > div {
 .agency {
   width: 100%;
   justify-content: center;
-  margin: 100px 0;
+  padding: 150px 0;
+  background-color: #f7f8f9;
 }
 .agency > article {
   width: 50%;
@@ -156,22 +157,28 @@ main > div {
   margin: 25px 0;
 }
 .agency > article > p {
-  color: black;
+  color: #5d5f65;
   font-size: 18px;
 }
 .agency > article > h2 {
+  color: #202020;
   font-size: 30px;
   text-transform: uppercase;
 }
 
-.items, .services {
-  background-color: rgb(183, 183, 183);
+.items,
+.services {
+  background-color: #f7f8f9;
 }
-.items > .row, .services > .row {
-  width: 100%;
+.items > .row,
+.services > .row {
+  width: 90%;
+  margin: auto;
   justify-content: space-evenly;
+  padding: 50px 0;
 }
-.items > .row article, .services > .row article {
+.items > .row article,
+.services > .row article {
   padding: 20px;
   width: 350px;
   background-color: white;
@@ -180,15 +187,18 @@ main > div {
   justify-content: center;
   margin: 50px;
 }
-.items > .row article > *, .services > .row article > * {
+.items > .row article > *,
+.services > .row article > * {
   margin: 15px 0;
   width: 100%;
 }
-.items > .row article > h2, .services > .row article > h2 {
+.items > .row article > h2,
+.services > .row article > h2 {
   text-align: center;
   font-size: 30px;
 }
-.items > .row article > p, .services > .row article > p {
+.items > .row article > p,
+.services > .row article > p {
   line-height: 30px;
   text-align: justify;
   font-size: 18px;
@@ -196,46 +206,84 @@ main > div {
   -moz-text-align-last: center;
        text-align-last: center;
 }
-.items > .row article > div, .services > .row article > div {
+.items > .row article > div,
+.services > .row article > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.items > .row article > div > div, .services > .row article > div > div {
-  width: 50px;
-  height: 50px;
+.items > .row article > div > div,
+.services > .row article > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.items > .row article > div > div:hover i:nth-of-type(1),
+.services > .row article > div > div:hover i:nth-of-type(1) {
+  left: 0;
+  transition: 0.2s;
+}
+.items > .row article > div > div:hover i:nth-of-type(2),
+.services > .row article > div > div:hover i:nth-of-type(2) {
+  left: 100px;
+  transition: 0.2s;
+}
+.items > .row article > div > div:hover > h2,
+.services > .row article > div > div:hover > h2 {
+  color: #ffa737;
+  transition: 0.7s;
+}
+.items > .row article > div > div > h2,
+.services > .row article > div > div > h2 {
+  padding-top: 30px;
+}
+.items > .row article > div > div > div,
+.services > .row article > div > div > div {
+  width: 100px;
+  height: 70px;
   position: relative;
   overflow: hidden;
 }
-.items > .row article > div > div:hover > i:nth-of-type(1), .services > .row article > div > div:hover > i:nth-of-type(1) {
-  left: 0;
-  transition: 0.4s;
-}
-.items > .row article > div > div:hover > i:nth-of-type(2), .services > .row article > div > div:hover > i:nth-of-type(2) {
-  left: 50px;
-  transition: 0.4s;
-}
-.items > .row article > div > div > i, .services > .row article > div > div > i {
+.items > .row article > div > div > div > i,
+.services > .row article > div > div > div > i {
   width: 100%;
   height: 100%;
   border: black;
   position: absolute;
-  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.items > .row article > div > div > i:nth-of-type(1), .services > .row article > div > div > i:nth-of-type(1) {
-  left: -50px;
+.items > .row article > div > div > div > i > svg,
+.services > .row article > div > div > div > i > svg {
+  color: #ffa737;
 }
-.items > .row article > div > div > i:nth-of-type(2), .services > .row article > div > div > i:nth-of-type(2) {
+.items > .row article > div > div > div > i:nth-of-type(1),
+.services > .row article > div > div > div > i:nth-of-type(1) {
+  left: -100px;
+}
+.items > .row article > div > div > div > i:nth-of-type(2),
+.services > .row article > div > div > div > i:nth-of-type(2) {
   left: 0px;
 }
-.items > .row > figure, .services > .row > figure {
+.items > .row > figure,
+.services > .row > figure {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.items > .row > figure > img, .services > .row > figure > img {
-  width: 100%;
+.items > .row > figure > img,
+.services > .row > figure > img {
+  width: 80%;
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.items > .row:nth-of-type(2),
+.services > .row:nth-of-type(2) {
+  padding: 50px 0 0 0;
 }
 
 .services {
