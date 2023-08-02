@@ -550,6 +550,7 @@ main > div {
 .ourPlan > div.card_container > div.card {
   position: relative;
   border: 10px solid #f7f7f7;
+  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.08);
 }
 .ourPlan > div.card_container > div.card div.row {
   width: 300px;
@@ -635,4 +636,75 @@ main > div {
 .ourPlan > div.card_container > div.card div.row > .panel_footer > a:hover {
   color: #607afe;
   border-color: #607afe;
+}
+.ourPlan > div.card_container > div.card:nth-of-type(3) .panel_footer > a {
+  background-color: #ffa737;
+  color: white !important;
+}
+.ourPlan > div.card_container > div.card:nth-of-type(3) .panel_footer > a:hover {
+  background-color: #ffb251;
+  border-color: white !important;
+}
+
+.latestNews {
+  background-color: #f7f8f9;
+}
+.latestNews > div {
+  width: 100%;
+}
+.latestNews > div > .card_container {
+  margin: 50px 0;
+  gap: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.latestNews > div > .card_container > .card {
+  width: 400px;
+}
+.latestNews > div > .card_container > .card > .card_header > figure > img {
+  width: 400px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.latestNews > div > .card_container > .card > .card_body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.latestNews > div > .card_container > .card > .card_body > h2 {
+  color: #ffa737;
+  font-size: 23px;
+  margin-top: 12px;
+}
+.latestNews > div > .card_container > .card > .card_body > p {
+  text-align: center;
+  line-height: 30px;
+  text-transform: initial;
+  color: #5d5f65;
+  margin-bottom: 12px;
+}
+.latestNews > div > .card_container > .card > .card_body > p:nth-of-type(1) {
+  font-size: 14px;
+}
+.latestNews > div > .button_footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.latestNews > div > .button_footer > a {
+  padding: 13px 29px;
+  background-color: #ffa737;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.latestNews > div > .button_footer > a:hover {
+  background-color: #ffb251;
 }/*# sourceMappingURL=master.css.map */
