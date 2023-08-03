@@ -374,7 +374,7 @@ main > div {
 }
 .our_work > .piture_content {
   margin-top: 100px;
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -714,11 +714,14 @@ main > div {
   left: 0;
 }
 .free > div {
-  width: 50%;
+  z-index: 1000;
+  width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .free > div > * {
   color: white;
@@ -731,18 +734,29 @@ main > div {
   width: 200px;
   height: 50px;
   border-radius: 50px;
-  background-color: orangered;
+  background-color: #ffa737;
   color: white;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+}
+.free > div > a:hover {
+  background-color: #ffb251;
+}
+.free > div > h2 {
+  color: #f8f8f8;
+  font-size: 40px;
+}
+.free > div > p {
+  width: 30%;
+  line-height: 40px;
 }
 
 .footer_bottom {
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
 }
@@ -756,13 +770,45 @@ main > div {
   margin: 20px 0;
 }
 .footer_bottom > div > figure > img {
-  width: 200px;
+  width: 170px;
+}
+.footer_bottom > div > ul {
+  margin: 50px 0 40px 0;
 }
 .footer_bottom > div > ul > li {
+  display: flex;
   margin: 0 20px;
-  text-transform: uppercase;
-  font-size: 20px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.footer_bottom > div > ul > li > a {
+  display: flex;
+}
+.footer_bottom > div > ul > li:nth-of-type(4) span {
+  display: flex;
+  color: #ffa737;
+  border: 1px solid #ffa737;
+  border-radius: 5px;
+  transform: translateY(-3px);
+  font-size: 12px;
+  margin-left: 5px;
+  padding: 3px 4px;
 }
 .footer_bottom > div > p {
   text-align: center;
+}
+.footer_bottom > div > p > span {
+  color: #ffa737;
+  margin: 0px 4px;
+}
+.footer_bottom > div > div.icon {
+  display: flex;
+}
+.footer_bottom > div > div.icon > i {
+  color: #5d5f65;
+  margin: 20px;
+}
+.footer_bottom > div > div.icon > i svg {
+  width: 18px;
+  height: 18px;
 }/*# sourceMappingURL=master.css.map */
